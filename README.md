@@ -1,8 +1,19 @@
+[![PHP workflow](https://github.com/DaPikk/Ko7-Email/actions/workflows/php.yml/badge.svg)]
+[![Required minimum PHP Version](https://img.shields.io/badge/PHP-7.4>8.1-blue)]
+[![Required minimum Ko7even Version](https://img.shields.io/badge/Ko7even-=>3.3.8-blue)](https://github.com/koseven/koseven)
+[![Required SwiftMailer Version](https://img.shields.io/badge/SwiftMailer-6.0-blue)](https://swiftmailer.symfony.com/)
+[![Github Issues](https://img.shields.io/github/issues/dapikk/ko7-email.svg)](https://github.com/dapikk/ko7-email/issues)
+
 # Email Module For Koseven (Ported from Leemo Studios Kohana 3.3 Swiwtmailer Emailer)
 
 __Attention!__ This module is very different from the original module. The structure
 of this module has been heavily reworked to be more in line with the principles
 used in Kohana.
+
+## Requires
+* PHP 7.4 - 8.1
+* Ko7even => 3.3.8
+* SwiftMailer => 6.0
 
 ## Installation
 
