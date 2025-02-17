@@ -5,6 +5,7 @@
 [![Github Issues](https://img.shields.io/github/issues/dapikk/ko7-email.svg)](https://github.com/dapikk/ko7-email/issues)
 
 # Email Module For Koseven (Ported from Leemo Studios Kohana 3.3 Swiwtmailer Emailer)
+[![Original code](https://img.shields.io/badge/Leemo-Kohana_swift_mailer-red)](https://github.com/Leemo/kohana-swift-mailer)
 
 __Attention!__ This module is very different from the original module. The structure
 of this module has been heavily reworked to be more in line with the principles
