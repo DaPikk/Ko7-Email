@@ -20,9 +20,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
+    - name: Setup PHP Action
+      uses: shivammathur/setup-php@2.32.0
+      with:
           php-version: ${{ matrix.php-version }}
           extensions: mbstring, xml, ctype, json
           coverage: none  # Set 'xdebug' for code coverage
