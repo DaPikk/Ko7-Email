@@ -20,6 +20,7 @@ Then copy `MODPATH/email/config/email.php` to `APPPATH/config/email.php`.
 
 NB! If swiftmailer is not included in the vendor folder, download proper swiftmailer version as per composer.json:
 "swiftmailer/swiftmailer": "^6.0"
+NB! "Swift Mailer" will stop being maintained at the end of November 2021.
 
 Well done!
 
