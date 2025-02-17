@@ -1,5 +1,5 @@
-[![PHP workflow](https://github.com/DaPikk/Ko7-Email/actions/workflows/php.yml/badge.svg)]
-[![Required minimum PHP Version](https://img.shields.io/badge/PHP-7.4>8.1-blue)]
+[![PHP workflow](https://github.com/DaPikk/Ko7-Email/actions/workflows/php.yml/badge.svg)]()
+[![Required minimum PHP Version](https://img.shields.io/badge/PHP-7.4>8.1-blue)]()
 [![Required minimum Ko7even Version](https://img.shields.io/badge/Ko7even-=>3.3.8-blue)](https://github.com/koseven/koseven)
 [![Required SwiftMailer Version](https://img.shields.io/badge/SwiftMailer-6.0-blue)](https://swiftmailer.symfony.com/)
 [![Github Issues](https://img.shields.io/github/issues/dapikk/ko7-email.svg)](https://github.com/dapikk/ko7-email/issues)
