@@ -17,7 +17,7 @@ used in Kohana.
 * SwiftMailer => 6.0
 
 ## Download
-![Latest release](https://github.com/DaPikk/Ko7-Email/releases/latest)
+!(https://github.com/DaPikk/Ko7-Email/releases/latest)
 
 ## Installation
 
