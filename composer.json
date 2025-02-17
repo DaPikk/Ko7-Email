@@ -1,5 +1,33 @@
 {
-    "require": {
-        "swiftmailer/swiftmailer": "^6.0"
+  "name": "dapikk/ko7-email",
+  "description": "Email Module For Koseven (Ported from Leemo Studios Kohana 3.3 Swiwtmailer Emailer)",
+  "license": "BSD-3-Clause",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "dapikk/ko7-email",
+        "version": "1.0.0",
+        "type": "module",
+        "source": {
+          "url": "https://github.com/DaPikk/Ko7-Email.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
+  ],
+  "extra": {
+        "installer-paths": {
+            "modules/{$name}": ["type:kohana-module"]
+        }
+  },
+  "require": {
+    "php": ">=7.4",
+    "swiftmailer/swiftmailer": "^6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=7.5.2"
+  }
+    
 }
