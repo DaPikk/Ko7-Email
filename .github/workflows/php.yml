@@ -13,10 +13,23 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-version: [7.2, 7.3, 7.4, 8.0]
 
     steps:
     - uses: actions/checkout@v4
+    
+    - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: mbstring, xml, ctype, json
+          coverage: none  # Set 'xdebug' for code coverage
 
+    - name: Verify PHP Version
+      run: php -v
+        
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
 
