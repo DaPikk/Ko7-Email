@@ -16,6 +16,9 @@ used in Kohana.
 * Ko7even => 3.3.8
 * SwiftMailer => 6.0
 
+## Download
+![Latest release](https://github.com/DaPikk/Ko7-Email/releases/latest)
+
 ## Installation
 
 Edit your bootstrap file `APPPATH/bootstrap.php` and enable email module:
